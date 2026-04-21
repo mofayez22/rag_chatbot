@@ -4,6 +4,17 @@ A Retrieval-Augmented Generation (RAG) chatbot built entirely with free tools.
 Ask questions about the paper *Testing Artificial Intelligence* by Gerard Numan
 and get answers grounded in the document.
 
+## Screenshots
+
+### App loaded
+![App loaded](screenshots/01_app_loaded.png)
+
+### Summary question
+![Summary question](screenshots/02_summarize_document.png)
+
+### Overfitting vs underfitting
+![Overfitting question](screenshots/03_overfitting_under-fitting_question.png)
+
 ## Stack
 - **Embeddings**: sentence-transformers/all-MiniLM-L6-v2 (local, free)
 - **Vector store**: ChromaDB

@@ -1,0 +1,22 @@
+# Secrets — never push these
+.streamlit/secrets.toml
+.env
+
+# ChromaDB index — rebuilt on startup
+rag_parent_child_db/
+
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Virtual environment
+rag_project/
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
